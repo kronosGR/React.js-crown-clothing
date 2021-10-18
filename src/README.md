@@ -1,4 +1,4 @@
 # Crown Clothing Store
 * React.js
-* Sass
+* Sass with node-sass
 * Node.js
