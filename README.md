@@ -7,3 +7,5 @@ A clothing store, e-shop.
 * sass (node-sass & sass-loader)
 * Firebase 
 * * Authentication
+* * Firestore Database
+* Redux (redux redux-logger react redux)
