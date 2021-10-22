@@ -5,6 +5,8 @@ import CustomButton from '../custom-button/custom-button.component';
 
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
+import './sign-up.styles.scss'
+
 class SignUp extends React.Component {
   constructor() {
     super();
@@ -66,7 +68,7 @@ class SignUp extends React.Component {
           <FormInput
             type='email'
             name='email'
-            value={displayName}
+            value={email}
             onChange={this.handleChange}
             label='Email'
             required
