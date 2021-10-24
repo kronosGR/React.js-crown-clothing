@@ -9,3 +9,4 @@ A clothing store, e-shop.
 * * Authentication
 * * Firestore Database
 * Redux (redux redux-logger react redux)
+* * memoization (reselect)
