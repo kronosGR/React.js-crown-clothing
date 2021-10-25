@@ -10,3 +10,4 @@ A clothing store, e-shop.
 * * Firestore Database
 * Redux (redux redux-logger react redux)
 * * memoization (reselect)
+* * persit redux store (redux-persist)
