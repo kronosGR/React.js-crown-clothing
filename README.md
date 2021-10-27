@@ -12,3 +12,4 @@ A clothing store, e-shop.
 * * selectors (reselect)
 * * persit redux store (redux-persist)
 * Payment demostration with stripe.com (react-stripe-checkout)
+* Heroku deployment (https://github.com/mars/create-react-app-buildpack)
