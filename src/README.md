@@ -1,4 +1,15 @@
-# Crown Clothing Store
+# Crown Clothing
+
+A clothing store, e-shop.
+
 * React.js
-* Sass with node-sass
-* Node.js
+* yarn instead of npm
+* sass (node-sass & sass-loader)
+* Firebase 
+* * Authentication
+* * Firestore Database
+* Redux (redux redux-logger react redux)
+* * selectors (reselect)
+* * persit redux store (redux-persist)
+* Payment demonstration with stripe.com (react-stripe-checkout)
+* Heroku deployment (https://github.com/mars/create-react-app-buildpack)
