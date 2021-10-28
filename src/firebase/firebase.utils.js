@@ -12,10 +12,7 @@ const config = {
   measurementId: 'G-ZR9K68016Y',
 };
 
-export const createUserProfileDocument = async (
-  userAuth,
-  additionalData
-) => {
+export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
   const userRef = firestore.doc(`users/${userAuth.uid}`);
@@ -39,6 +36,20 @@ export const createUserProfileDocument = async (
   }
 
   return userRef;
+};
+
+export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
+  const collectionRef = firestore.collection(collectionKey);
+
+  // use batch for batch actions, to avoid unpredictable behaviour
+  const batch = firestore.batch();
+  objectsToAdd.forEach((obj) => {
+    // get reference with unique id
+    const newDocRef = collectionRef.doc();
+    batch.set(newDocRef, obj);
+  });
+
+  return await batch.commit();
 };
 
 firebase.initializeApp(config);
