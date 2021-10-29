@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import {fetchCollectionsStartAsync} from '../../redux/shop/shop.actions'
 
-import CollectionsOveriewContainer from '../../components/collections-overview/collections-overview.container';
+import CollectionsOverviewContainer from '../../components/collections-overview/collections-overview.container';
 import CollectionPageContainer from '../collection/collection.container';
 
 class ShopPage extends React.Component {
@@ -20,7 +20,7 @@ class ShopPage extends React.Component {
         <Route
           exact
           path={`${match.path}`}
-         component={CollectionsOveriewContainer}
+         component={CollectionsOverviewContainer}
         />
         <Route
           path={`${match.path}/:collectionId`}
