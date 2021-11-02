@@ -13,3 +13,4 @@ A clothing store, e-shop.
 * * persit redux store (redux-persist)
 * Payment demonstration with stripe.com (react-stripe-checkout)
 * Heroku deployment (https://github.com/mars/create-react-app-buildpack)
+* lazy and Suspense
