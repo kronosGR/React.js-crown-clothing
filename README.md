@@ -15,3 +15,4 @@ A clothing store, e-shop.
 * Heroku deployment (https://github.com/mars/create-react-app-buildpack)
 * lazy and Suspense
 * Error Boundary
+* React memo
