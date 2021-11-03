@@ -11,6 +11,7 @@ A clothing store, e-shop.
 * Redux (redux redux-logger react redux)
 * * selectors (reselect)
 * * persit redux store (redux-persist)
-* Payment demostration with stripe.com (react-stripe-checkout)
+* Payment demonstration with stripe.com (react-stripe-checkout)
 * Heroku deployment (https://github.com/mars/create-react-app-buildpack)
-* styled components on some components (styled-components)
+* lazy and Suspense
+* Error Boundary
